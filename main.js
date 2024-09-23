@@ -8,7 +8,7 @@ const app = express();
 
 // CORS configuration to allow requests from specific origins
 const corsOptions = {
-    origin: 'http://localhost:3000',  // Allow requests from this origin
+    origin: 'https://capitradx.com',  // Allow requests from this origin
     credentials: true,                 // Enable credentials (cookies, authorization headers, etc.)
     methods: ['GET', 'POST', 'OPTIONS'],       // Allowed methods
     allowedHeaders: 'Content-Type, Authorization' // Allowed headers
