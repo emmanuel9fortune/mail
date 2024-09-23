@@ -71,7 +71,7 @@ app.post('/admin', async (req, res) => {
 
         await transporter.sendMail({
             from: 'no-reply <capitradx@gmail.com>',
-            to: 'akhalumehemmanuel@gmail.com',
+            to: 'capitradx@gmail.com',
             subject: 'User Signed up',
             text: 'New sign up Today',
             html: html
